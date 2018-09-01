@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colgate"
+    tools:context="fr.uha.ledigabel.poketrainer.MainActivity">
+
+    <ImageView
+        android:id="@+id/trainer"
+        android:layout_width="46dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/dresseur"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="129dp" />
+
+    <Button
+        android:id="@+id/trainersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/trainers"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/pokemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/pokemon" />
+
+    <Button
+        android:id="@+id/pokemonsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/pokemons"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/region" />
+
+    <Button
+        android:id="@+id/regionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/regions"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PokeTrainer</string>
+    <string name="trainers">Dresseurs</string>
+    <string name="nickname">Surnom</string>
+    <string name="gender">Sexe</string>
+    <string name="male">Homme</string>
+    <string name="female">Femme</string>
+    <string name="age">Age</string>
+    <string name="boulder">Roche</string>
+    <string name="cascade">Cascade</string>
+    <string name="soul">Ame</string>
+    <string name="cancel">Annuler</string>
+    <string name="valid">Valider</string>
+    <string name="badges">Badges</string>
+    <string name="addTrainer">Ajouter un dresseur...</string>
+    <string name="pokemons">Pokemons</string>
+    <string name="species">Espèce</string>
+    <string name="type1">Type 1</string>
+    <string name="type2">(Type 2)</string>
+    <string name="regions">Regions</string>
+    <string name="addRegion">Ajouter une région...</string>
+    <string name="addPokemon">Ajouter un Pokémon...</string>
+    <string name="region">Nom de la région</string>
+    <string name="numberOfWild">Pokémons sauvages découverts :</string>
+    <string name="addWildPokemon">Ajouter un Pokémon sauvage</string>
+    <string name="badges_count">Nombre de badges :</string>
+    <string name="addOwnPokemon">Ajouter ce Pokémons</string>
+    <string name="ownPokemons">Pokémons du dresseur</string>
+    <string name="pokemons_count">Nombre de Pokémons :</string>
+    <string name="thunder">Foudre</string>
+    <string name="rainbow">Prisme</string>
+    <string name="volcano">Volcan</string>
+    <string name="earth">Terre</string>
+    <string name="marsh">Marais</string>
+    <string name="sort_pokemons">Trier par Pokemons</string>
+    <string name="sort_badges">Trier par badges</string>
+    <string name="sort_type">Trier par type</string>
+    <string name="noName">Veuillez entrer un nom !</string>
+    <string name="noType1">Donnez au moins le type principal !</string>
+    <string name="alreadyInList">Vous avez déjà ajouté ce Pokemon à la région !</string>
+    <string name="noAge">Entrez un âge !</string>
+</resources>

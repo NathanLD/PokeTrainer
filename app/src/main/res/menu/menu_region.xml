@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.uha.ledigabel.poketrainer.RegionsActivity">
+
+    <item
+        android:id="@+id/sort_pokemons"
+        android:orderInCategory="100"
+        android:title="@string/sort_pokemons"
+        android:icon="@drawable/ic_sort_black_24dp"
+        app:showAsAction="never" />
+</menu>
